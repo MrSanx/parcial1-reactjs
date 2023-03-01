@@ -15,22 +15,22 @@
 			<input type="text" id="resultado" disabled>
 		</div>
 		<div class="buttons">
-			<button class="operador" onclick="operar()">C</button>
+			<button class="operador" onclick="limpiar()">C</button>
 			<button class="operador" onclick="eliminarNumero()">DEL</button>
-			<button class="operador" onclick="operacion()">/</button>
-			<button class="operador" onclick="operacion()">x</button>
+			<button class="operador" onclick="operacion('/')">/</button>
+			<button class="operador" onclick="operacion('*')">x</button>
 			<button class="numero" onclick="numeroNuevo(7)">7</button>
 			<button class="numero" onclick="numeroNuevo(8)">8</button>
 			<button class="numero" onclick="numeroNuevo(9)">9</button>
-			<button class="operador" onclick="operacion()">-</button>
+			<button class="operador" onclick="operacion('-')">-</button>
 			<button class="numero" onclick="numeroNuevo(4)">4</button>
 			<button class="numero" onclick="numeroNuevo(5)">5</button>
 			<button class="numero" onclick="numeroNuevo(6)">6</button>
-			<button class="operador" onclick="operacion()">+</button>
+			<button class="operador" onclick="operacion('+')">+</button>
 			<button class="numero" onclick="numeroNuevo(1)">1</button>
 			<button class="numero" onclick="numeroNuevo(2)">2</button>
 			<button class="numero" onclick="numeroNuevo(3)">3</button>
-			<button class="resultado" onclick="operacion()">=</button>
+			<button class="resultado" onclick="resultado()">=</button>
 			<button class="cero" onclick="numeroNuevo(0)">0</button>
 			<button class="numero" onclick="numeroNuevo('.')">.</button>
 		</div>

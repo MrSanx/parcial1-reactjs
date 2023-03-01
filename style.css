@@ -18,10 +18,10 @@
 }
 
 .display input[type="text"] {
-	width: 100%;
+	width: 95%;
 	height: 100%;
 	border: none;
-	font-size: 18px;
+	font-size: 30px;
 	text-align: right;
 	background-color: #25354F;
 	color: #FFFFFF;
